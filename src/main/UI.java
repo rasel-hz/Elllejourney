@@ -315,7 +315,7 @@ public class UI {
             g2.drawString(">",x-gp.tileSize,y);
         }
         g2.setFont(g2.getFont().deriveFont(Font.BOLD,20F));
-        text = "BY : RASIL & JOURY";
+        text = "BY : RASEEL";
         x =getXforCenteredText(text) ; 
         y += gp.tileSize;
         g2.drawString(text, x, y);
