@@ -189,7 +189,7 @@ public class UI {
         g2.setColor(Color.white);
         g2.drawString(text,x,y);
         g2.setFont(g2.getFont().deriveFont(Font.BOLD,30F));
-        text = "@rasel&joury";
+        text = "By:Raseel";
         x =getXforCenteredText(text) ;
         y += gp.tileSize*2;
         g2.drawString(text, x, y);
